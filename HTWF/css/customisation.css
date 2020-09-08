@@ -89,6 +89,9 @@ h3.white-header {
 	#carousel-software-dev {
 		width: 180rem !important;
 		height: auto !important;
+
+		padding-top: 10%;
+		padding-right: 20% !important;
 	}
 }
 
@@ -116,8 +119,4 @@ h3.white-header {
 
 #div-temp-center-2 {
 	text-align: center !important;
-}
-#carousel-software-dev {
-	padding-top: 10%;
-	padding-right: 20% !important;
 }
