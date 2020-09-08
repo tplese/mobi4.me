@@ -23,3 +23,49 @@ h3.white-header {
 .img-faded {
     opacity: 100%;
 }
+
+
+/*
+---------------------------
+@media customizations
+---------------------------
+
+
+@media (min-width: 1800px) {
+    .carousel-overlay-img {
+        
+    }
+}
+
+@media (min-width:1500px) {
+    .carousel-overlay-img {
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-overlay-img {
+
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-overlay-img {
+
+    }
+}
+
+@media (min-width:768px) {
+    .carousel-overlay-img {
+
+    }
+}
+*/
+
+/* Extra small screens 
+@media (max-width: 767px) {
+    .carousel-overlay-img {
+
+    }
+}
+*/
