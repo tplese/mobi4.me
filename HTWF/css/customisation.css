@@ -25,6 +25,7 @@ h3.white-header {
 }
 
 
+
 /*
 ---------------------------
 @media customizations
@@ -36,25 +37,45 @@ h3.white-header {
 		width: 100rem !important;
 		height: auto !important;
 	}
+
+	#carousel-software-dev {
+		width: 100rem !important;
+		height: auto !important;
+	}
 }
 
 @media (min-width:1500px) {
 	#carousel-m4m-app {
-		width: 100rem !important;
+		width: 190rem !important;
+		height: auto !important;
+	}
+
+	#carousel-software-dev {
+		width: 260rem !important;
 		height: auto !important;
 	}
 }
 
 @media (min-width: 1200px) {
 	#carousel-m4m-app {
-		width: 100rem !important;
+		width: 160rem !important;
+		height: auto !important;
+	}
+	
+	#carousel-software-dev {
+		width: 240rem !important;
 		height: auto !important;
 	}
 }
 
 @media (min-width: 992px) {
 	#carousel-m4m-app {
-		width: 100rem !important;
+		width: 130rem !important;
+		height: auto !important;
+	}
+	
+	#carousel-software-dev {
+		width: 200rem !important;
 		height: auto !important;
 	}
 }
@@ -62,6 +83,11 @@ h3.white-header {
 @media (min-width:768px) {
 	#carousel-m4m-app {
 		width: 100rem !important;
+		height: auto !important;
+	}
+	
+	#carousel-software-dev {
+		width: 180rem !important;
 		height: auto !important;
 	}
 }
@@ -73,4 +99,25 @@ h3.white-header {
 		height: 30rem !important;
 		width: auto !important;
 	}
+	
+	#carousel-software-dev {
+		width: 50rem !important;
+		height: auto !important;
+	}
+}
+
+
+#div-temp-center-1 {
+	text-align: center !important;
+}
+#carousel-m4m-app {
+	margin: auto !important;
+}
+
+#div-temp-center-2 {
+	text-align: center !important;
+}
+#carousel-software-dev {
+	padding-top: 10%;
+	padding-right: 20% !important;
 }
