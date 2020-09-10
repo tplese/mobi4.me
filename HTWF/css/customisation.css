@@ -24,102 +24,73 @@ h3.white-header {
 	opacity: 100%;
 }
 
-#carousel-container {
+#carousel-size-control {
 	height: 100vh !important;
 }
 
+#context-temp-2 {
+	margin:0px auto !important;
+}
+
+#parent-temp-2 {
+	position:relative !important;
+  right: 50% !important;
+  text-align:center !important;
+}
+
+#carousel-soft-dev-img {
+	display:inline-block !important;
+	margin-top: 10rem;
+}
 
 /*
 ---------------------------
 @media customizations
 ---------------------------
-
+*/
 
 @media (min-width: 1800px) {
-	#carousel-m4m-app {
-		width: 100rem !important;
+	#carousel-soft-dev-img {
+		width: 10rem !important;
 		height: auto !important;
-	}
-
-	#carousel-software-dev {
-		width: 100rem !important;
-		height: auto !important;
+		margin-right:-125% !important;
 	}
 }
 
 @media (min-width:1500px) {
-	#carousel-m4m-app {
-		width: 190rem !important;
+	#carousel-soft-dev-img {
+		width: 10rem !important;
 		height: auto !important;
-	}
-
-	#carousel-software-dev {
-		width: 260rem !important;
-		height: auto !important;
+		
 	}
 }
 
 @media (min-width: 1200px) {
-	#carousel-m4m-app {
-		width: 160rem !important;
-		height: auto !important;
-	}
-	
-	#carousel-software-dev {
-		width: 240rem !important;
+	#carousel-soft-dev-img {
+		width: 10rem !important;
 		height: auto !important;
 	}
 }
 
 @media (min-width: 992px) {
-	#carousel-m4m-app {
+	#carousel-soft-dev-img {
+		width: 10rem !important;
+		height: auto !important;
+	}
+}
+
+@media (min-width:769px) {
+	#carousel-soft-dev-img {
 		width: 130rem !important;
 		height: auto !important;
-	}
-	
-	#carousel-software-dev {
-		width: 200rem !important;
-		height: auto !important;
+		margin-right:-100% !important;
 	}
 }
 
-@media (min-width:768px) {
-	#carousel-m4m-app {
-		width: 100rem !important;
-		height: auto !important;
-	}
-	
-	#carousel-software-dev {
-		width: 180rem !important;
-		height: auto !important;
-
-		padding-right: 20% !important;
-	}
-}
-*/
-
-/* Extra small screens 
-@media (max-width: 767px) {
-	#carousel-m4m-app {
-		height: 30rem !important;
-		width: auto !important;
-	}
-	
-	#carousel-software-dev {
+@media (max-width: 480px) {
+	#carousel-soft-dev-img {
 		width: 50rem !important;
 		height: auto !important;
+		margin-right:-190% !important;
 	}
 }
-
-
-#div-temp-center-1 {
-	text-align: center !important;
-}
-#carousel-m4m-app {
-	margin: auto !important;
-}
-
-#div-temp-center-2 {
-	text-align: center !important;
-}
-*/
