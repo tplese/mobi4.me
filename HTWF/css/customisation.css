@@ -28,21 +28,6 @@ h3.white-header {
 	height: 100vh !important;
 }
 
-#context-temp-2 {
-	margin:0px auto !important;
-}
-
-#parent-temp-2 {
-	position:relative !important;
-  right: 50% !important;
-  text-align:center !important;
-}
-
-#carousel-soft-dev-img {
-	display:inline-block !important;
-	margin-top: 10rem;
-}
-
 /*
 ---------------------------
 @media customizations
@@ -80,6 +65,16 @@ h3.white-header {
 }
 
 @media (min-width:769px) {
+	#context-temp-2 {
+		margin: 0px auto !important;
+	}
+	
+	#parent-temp-2 {
+		position: relative !important;
+		right: 50% !important;
+		text-align: center !important;
+	}
+	
 	#carousel-soft-dev-img {
 		width: 130rem !important;
 		height: auto !important;
@@ -87,10 +82,23 @@ h3.white-header {
 	}
 }
 
-@media (max-width: 480px) {
+@media (min-width: 481px) {
 	#carousel-soft-dev-img {
+		display: inline-block !important;
 		width: 50rem !important;
 		height: auto !important;
 		margin-right:-190% !important;
+	}
+}
+
+@media (max-width: 480px) {
+	#carousel-soft-dev-img {
+		max-width: 414px !important;
+		width: auto !important;
+		height: auto !important;
+		/* margin-right:-160vw !important; */
+		/* margin-right:-185% !important;*/
+		margin-top: 25vh;
+		background-color: black;
 	}
 }
