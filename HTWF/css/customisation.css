@@ -24,13 +24,16 @@ h3.white-header {
 	opacity: 100%;
 }
 
+#carousel-container {
+	height: 100vh !important;
+}
 
 
 /*
 ---------------------------
 @media customizations
 ---------------------------
-*/
+
 
 @media (min-width: 1800px) {
 	#carousel-m4m-app {
@@ -93,9 +96,9 @@ h3.white-header {
 		padding-right: 20% !important;
 	}
 }
+*/
 
-
-/* Extra small screens */
+/* Extra small screens 
 @media (max-width: 767px) {
 	#carousel-m4m-app {
 		height: 30rem !important;
@@ -119,3 +122,4 @@ h3.white-header {
 #div-temp-center-2 {
 	text-align: center !important;
 }
+*/
