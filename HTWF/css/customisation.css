@@ -14,6 +14,10 @@ h3.white-header {
 	font-size: 5rem;
 }
 
+.h3-line-height {
+	line-height: 4rem;
+}
+
 .img-shadow {
 	display: box !important;
 	box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.2), 0 6px 15px 0 rgba(100, 100, 100, 0.07) !important;
@@ -102,6 +106,14 @@ h3.white-header {
 	#carousel-m4m-app {
 		max-width: 90vw !important;
 	}
+
+	/* In portrait - first text, then image */
+	#portrait-first {
+		order: 1 !important;
+	}
+	#portrait-second {
+		order: 2 !important;
+	}
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
@@ -112,6 +124,14 @@ h3.white-header {
 	#carousel-m4m-app {
 		max-width: 90vw !important;
 	}
+
+	/* In portrait - first text, then image */
+	.row#portrait-first {
+		order: 1 !important;
+	}
+	.row#portrait-second {
+		order: 2 !important;
+	}
 }
 
 @media (max-width: 360px) {
@@ -121,6 +141,14 @@ h3.white-header {
 
 	#carousel-m4m-app {
 		max-width: 90vw !important;
+	}
+
+	/* In portrait - first text, then image */
+	#portrait-first {
+		order: 1 !important;
+	}
+	#portrait-second {
+		order: 2 !important;
 	}
 }
 
