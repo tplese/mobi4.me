@@ -38,6 +38,23 @@ h3.white-header {
 ---------------------------
 */
 
+/* In portrait orientation: image first, text second */
+@media (orientation: portrait) {
+	.row.vertical-row {
+		display: flex !important;
+		flex-direction: column;
+	}
+	
+	/* Image */
+	.portrait-order-1 {
+		order: 1;
+	}
+	/* Text */
+	.portrait-order-2 {
+		order: 2;
+	}
+}
+
 @media (min-width: 1800px) {
 	#carousel-m4m-app {
 		max-width: 40vw !important;
@@ -107,13 +124,6 @@ h3.white-header {
 		max-width: 90vw !important;
 	}
 
-	/* In portrait - first text, then image */
-	#portrait-first {
-		order: 1 !important;
-	}
-	#portrait-second {
-		order: 2 !important;
-	}
 }
 
 @media (min-width: 361px) and (max-width: 480px) {
@@ -125,13 +135,6 @@ h3.white-header {
 		max-width: 90vw !important;
 	}
 
-	/* In portrait - first text, then image */
-	.row#portrait-first {
-		order: 1 !important;
-	}
-	.row#portrait-second {
-		order: 2 !important;
-	}
 }
 
 @media (max-width: 360px) {
@@ -141,14 +144,6 @@ h3.white-header {
 
 	#carousel-m4m-app {
 		max-width: 90vw !important;
-	}
-
-	/* In portrait - first text, then image */
-	#portrait-first {
-		order: 1 !important;
-	}
-	#portrait-second {
-		order: 2 !important;
 	}
 }
 
