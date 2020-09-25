@@ -797,6 +797,8 @@ function isScrollView(t) {
             var a = $(this).attr("data-social");
             var link = $(this).attr("data-social-url");
             var purl = link;
+            console.log(`link: ${link}`);
+            console.log(`purl: ${purl}`);
             if (isEmpty(link)) purl = window.location.href;
 
             var url = 'https://www.facebook.com/sharer/sharer.php?u=' + purl;
