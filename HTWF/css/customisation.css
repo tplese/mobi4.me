@@ -60,6 +60,14 @@ h3.white-header {
 	}
 }
 
+
+/* Carousel images in LANDSCAPE: image left, text right */
+@media (orientation: landscape) {
+
+}
+
+
+/* Carousel @media customizations */ 
 @media (min-width: 1800px) {
 	#carousel-m4m-app {
 		max-width: 40vw !important;

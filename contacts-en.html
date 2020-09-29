@@ -91,8 +91,8 @@
 	<div class="section-empty">
 		<div class="container content">
 			<div class="row proporzional-row">
-				<div class="col-md-6 col-sm-12">
-					<form action="https://albumshares.com/HTWF/scripts/php/contact-form.php" method="post">
+				<div class="col-md-8 col-sm-12">
+					<form target="_blank" action="https://formsubmit.co/c710956f4d5a0d2c25c54595f7792292" method="post">
 						<div class="row">
 							<div class="col-md-4">
 								<p>Your name</p>
@@ -111,60 +111,57 @@
 						<div class="row">
 							<div class="col-md-12">
 								<p>Your message</p>
-								<textarea id="messagge" name="messagge" placeholder="" class="form-control form-value" required></textarea>
-								<hr class="space s" />
+								<textarea id="messagge" name="messagge" placeholder="" rows="10" class="form-control form-value" required></textarea>
+								<!-- FormSubmit.co - Return to website -->
+								<input type="hidden" name="_next" value="http://localhost:5500/contacts-en.html">
+								<!-- FormSubmit.co - Autoresponse -->
+								<input type="hidden" name="_autoresponse" value="Thank you for your message! We will reply as soon as possible. Mobi4.Me Team">
+								<!-- FormSubmit.co - Notification in form of table template -->
+								<input type="hidden" name="_template" value="table">
+								<!-- FormSubmit.co - Subject for notification of received message -->
+								<input type="hidden" name="_subject" value="New message from mobi4.me wesite!">
+								<hr class="space" />
 								<button class="btn-sm btn circle-button" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
 							</div>
 						</div>
-						<div class="success-box">
+						<div class="success-box" style="display: none;">
 							<div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
 						</div>
-						<div class="error-box">
+						<div class="error-box" style="display: none;">
 							<div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
 						</div>
 					</form>
 
 				</div>
-				<div class="col-md-6 boxed-inverse shadow-1 col-sm-12">
+				<div class="col-md-4 boxed-inverse shadow-1 col-sm-12">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-12">
 							<ul class="fa-ul">
 								<li>
 									<i class="fa-li fa fa-home"></i>
-									Sturlly Technologies
-									PO Box 16122, Collins Street West,
+									Mobi4Me
+									<br>
+									Čelopečka ulica 10
+									<br>
+									11000 Belgrade
+									<br>
+									Serbia
 
 								</li>
-								<li>
-									<i class="fa-li fa fa-home"></i>
-									Studio Massimo
-									PO Box 16120, Street
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-6">
-							<ul class="fa-ul">
-								<li><i class="fa-li fa fa-skype"></i> Company.name</li>
-								<li><i class="fa-li fa fa-headphones"></i> (123) 0 123 455669</li>
-								<li><i class="fa-li fa fa-fax"></i> (123) 0 123 455600</li>
-								<li><i class="fa-li fa fa-envelope-o"></i> info@company.com</li>
-								<li><i class="fa-li fa fa-envelope-o"></i> sales@company.com</li>
+								<li><i class="fa-li fa fa-envelope-o"></i> info@mobi4.me</li>
 							</ul>
 						</div>
 					</div>
-					<hr class="space m" />
+					<hr class="space xxl" />
 					<div class="btn-group social-group btn-group-icons">
-						<a target="_blank" href="#" data-social="share-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+						<a target="_blank" href="https://www.facebook.com/mobi4me.software" data-toggle="tooltip" data-placement="top" title="Facebook">
 							<i class="fa fa-facebook text-s circle"></i>
 						</a>
-						<a target="_blank" href="#" data-social="share-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+						<a target="_blank" href="https://twitter.com/mobi4mesoftware" data-toggle="tooltip" data-placement="top" title="Twitter">
 							<i class="fa fa-twitter text-s circle"></i>
 						</a>
-						<a target="_blank" href="#" data-social="share-google" data-toggle="tooltip" data-placement="top" title="Google+">
-							<i class="fa fa-google-plus text-s circle"></i>
-						</a>
-						<a target="_blank" href="#" data-social="share-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-							<i class="fa fa-linkedin text-s circle"></i>
+						<a target="_blank" href="https://www.instagram.com/mobi4me/" data-toggle="tooltip" data-placement="top" title="Google+">
+							<i class="fa fa-instagram text-s circle"></i>
 						</a>
 					</div>
 				</div>
