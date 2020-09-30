@@ -23,6 +23,10 @@ h3.white-header {
 	line-height: 4rem;
 }
 
+.img-smaller {
+	padding: 4vw !important;
+}
+
 .img-shadow {
 	display: box !important;
 	box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.2), 0 6px 15px 0 rgba(100, 100, 100, 0.07) !important;
@@ -31,10 +35,6 @@ h3.white-header {
 
 .img-faded {
 	opacity: 100%;
-}
-
-.col-align {
-
 }
 
 #carousel-size-control {
@@ -70,7 +70,7 @@ h3.white-header {
 
 @media (min-width: 1800px) {
 	#carousel-m4m-app {
-		max-width: 40vw !important;
+		max-width: 50vw !important;
 	}
 
 	#carousel-soft-dev-img {
@@ -80,7 +80,7 @@ h3.white-header {
 
 @media (min-width:1500px) and (max-width: 1799px) {
 	#carousel-m4m-app {
-		max-width: 40vw !important;
+		max-width: 50vw !important;
 	}
 
 	#carousel-soft-dev-img {
@@ -90,7 +90,7 @@ h3.white-header {
 
 @media (min-width: 1200px) and (max-width: 1499px) {
 	#carousel-m4m-app {
-		max-width: 40vw !important;
+		max-width: 50vw !important;
 	}
 
 	#carousel-soft-dev-img {
@@ -100,7 +100,7 @@ h3.white-header {
 
 @media (min-width: 993px) and (max-width: 1199px) {
 	#carousel-m4m-app {
-		max-width: 50vw !important;
+		max-width: 60vw !important;
 	}
 
 	#carousel-soft-dev-img {
@@ -110,7 +110,7 @@ h3.white-header {
 
 @media (min-width:769px) and (max-width: 992px) {
 	#carousel-m4m-app {
-		max-width: 50vw !important;
+		max-width: 60vw !important;
 	}
 
 	#carousel-soft-dev-img {
@@ -120,7 +120,7 @@ h3.white-header {
 
 @media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
 	#carousel-m4m-app {
-		max-width: 40vw !important;
+		max-width: 50vw !important;
 	}
 
 	#carousel-soft-dev-img {
