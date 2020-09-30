@@ -197,10 +197,12 @@ h3.white-header {
 
 	#carousel-m4m-app {
 		left: 90vh !important;
+		bottom: 5vh !important;
 	}
 
 	#carousel-soft-dev-img {
 		left: 90vh !important;
+		bottom: 5vh !important;
 	}
 
 	/* Text */
