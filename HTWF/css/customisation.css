@@ -33,15 +33,18 @@ h3.white-header {
 	opacity: 100%;
 }
 
+.col-align {
+
+}
+
 #carousel-size-control {
 	height: 93vh !important;
 }
 
-/*
----------------------------
-@media customizations
----------------------------
-*/
+
+/******************************
+* @media - Ordeer of elements *
+******************************/
 
 /* In portrait orientation: image first, text second */
 @media (orientation: portrait) {
@@ -61,13 +64,10 @@ h3.white-header {
 }
 
 
-/* Carousel images in LANDSCAPE: image left, text right */
-@media (orientation: landscape) {
+/**********************************************
+* CAROUSEL image sizing @media customizations *
+**********************************************/ 
 
-}
-
-
-/* Carousel @media customizations */ 
 @media (min-width: 1800px) {
 	#carousel-m4m-app {
 		max-width: 40vw !important;
@@ -178,4 +178,42 @@ h3.white-header {
 	bottom: 0 !important;
 	right: 0 !important;
 	left: 0 !important;
+}
+
+
+/********************************************************************
+* CAROUSEL image/text size and position in SMALL screen - LANDSCAPE *
+********************************************************************/
+@media (max-height: 720px) and (orientation: landscape) {
+	.row.carousel-orientation {
+		display: flex !important;
+		flex-direction: row !important;
+	}
+	
+	/* Image */
+	.col-small-img {
+		width: 50% !important;
+	}
+
+	#carousel-m4m-app {
+		left: 90vh !important;
+	}
+
+	#carousel-soft-dev-img {
+		left: 90vh !important;
+	}
+
+	/* Text */
+	.col-small-txt {
+		width: 50% !important;
+		text-align: center;
+	}
+
+	.h1-small {
+		font-size: 3.5rem;
+	}
+
+	.p-small {
+		font-size: 2rem !important;
+	}
 }
