@@ -90,14 +90,14 @@
 		<div class="container content">
 			<div class="row proporzional-row">
 				<div class="col-md-8 col-sm-12">
-					<form target="_blank" action="https://formsubmit.co/5120c10a5c79ffed37dee63d380fbc0b" method="post">
+					<form action="https://formsubmit.co/5120c10a5c79ffed37dee63d380fbc0b" method="post">
 						<div class="row">
 							<div class="col-md-4">
-								<p>Your name</p>
+								<p>Your name *</p>
 								<input id="name" name="name" placeholder="" type="text" class="form-control form-value form-no-border shadow-1" required>
 							</div>
 							<div class="col-md-4">
-								<p>Email</p>
+								<p>Email *</p>
 								<input id="email" name="email" placeholder="" type="email" class="form-control form-value form-no-border shadow-1" required>
 							</div>
 							<div class="col-md-4">
@@ -108,7 +108,7 @@
 						<hr class="space xs" />
 						<div class="row">
 							<div class="col-md-12">
-								<p>Your message</p>
+								<p>Your message *</p>
 								<textarea id="messagge" name="messagge" placeholder="" rows="10" class="form-control form-value form-no-border shadow-1" required></textarea>
 								<!-- FormSubmit.co - Return to website -->
 								<input type="hidden" name="_next" value="https://mobi4.me/contacts-success-en.html">
@@ -118,8 +118,10 @@
 								<input type="hidden" name="_template" value="table">
 								<!-- FormSubmit.co - Subject for notification of received message -->
 								<input type="hidden" name="_subject" value="New message from mobi4.me wesite!">
-								<hr class="space" />
-								<button class="btn-sm btn circle-button" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+								<hr class="space s" />
+								<p>required *</p>
+								<hr class="space m" />
+								<button class="btn-sm btn circle-button" type="submit" onclick=""><i class="fa fa-envelope-o"></i>Send messagge</button>
 							</div>
 						</div>
 						<div class="success-box" style="display: none;">
@@ -129,7 +131,6 @@
 							<div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
 						</div>
 					</form>
-
 				</div>
 				<div class="col-md-4 boxed-inverse shadow-1 col-sm-12">
 					<div class="row">
